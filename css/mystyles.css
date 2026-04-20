@@ -1,0 +1,171 @@
+/* ===== BODY ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(229, 229, 215, 0.682);
+    margin: 0;
+    text-align: center; /* centers all text */
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* centers navbar content */
+    align-items: center;
+    box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.1); /* subtle shadow */
+}
+
+/* ===== LOGO ===== */
+.logo {
+    color: #d6d3b5c2;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* ===== NAV LINKS ===== */
+.nav-links {
+    display: flex;
+    gap: 20px; /* spacing between links */
+}
+
+.nav-links a {
+    color: #546954;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ===== NAV LINK HOVER ===== */
+.nav-links a:hover {
+    color: #9bbf9b;
+}
+
+/* ===== HEADER ===== */
+header {
+    text-align: center;
+    color: rgb(84,105,84);
+    margin-top: 30px;
+}
+
+/* ===== IMAGE (FIXED + SMALLER + CENTERED) ===== */
+img {
+    border: 2px solid rgb(84,105,84); /* FIXED ERROR */
+    padding: 7px;
+    width: 600px; /* smaller image */
+    max-width: 90%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px; /* softer look */
+}
+
+/* ===== BULLETS (FULLY CENTERED) ===== */
+.bullets {
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}
+
+/* also apply to ALL lists just in case */
+ul, ol {
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}
+}
+
+/* ===== SECTIONS / BLOCKS ===== */
+.rivers {
+    background: white;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    font-size: 28px;
+    font-weight: bold;
+    color: #546954;
+}
+
+/* ===== VIDEO CONTAINER ===== */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* ===== VIDEO HEADING ===== */
+.videoheading {
+    text-align: center;
+    color: #546954;
+}
+
+/* ===== GRAPH HEADING ===== */
+.graphheading {
+    text-align: center;
+    color: #546954;
+}
+
+/* ===== GRAPH ===== */
+.graph {
+    display: flex;
+    justify-content: center;
+}
+
+/* ===== TABLEAU VISUALIZATION ===== */
+.tableauViz {
+    display: block;
+    margin: 20px auto;
+    max-width: 800px; /* FIXED typo (was 8-0px) */
+    width: 100%;
+    text-align: center;
+}
+
+/* ===== PAGE NAV ===== */
+.pagenav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ===== PAGE NAV LINKS ===== */
+.pagenav a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #546954;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* ===== PAGE NAV HOVER ===== */
+.pagenav a:hover {
+    background-color: #9bbf9b;
+}
+
+body {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+ul, ol {
+    font-size: 20px;
+}
+.tableau-iframe {
+    width: 100%;
+    height: 650px;
+    border: none;
+}
+
+.tableau-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
